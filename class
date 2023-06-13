@@ -1,0 +1,53 @@
+// class Department {
+//     name: string
+
+//     constructor(n:string) {
+//         this.name = n;
+//     }
+// }
+
+// const accounting = new Department("Account");
+
+// console.log(accounting);
+
+//object and interface
+
+//interface
+
+//object
+// var myName :StudentType= {
+//     name: 76,
+//     address:" mtr",
+//     age:5,
+// //    email:"banshree"
+//     getDOB:()=>16.12
+// }
+interface StudentType{
+    name:string,
+    age:number,
+    email?:string
+}
+function student(name: string,age: number,email:string): string{
+    return "name: "+name+"age: "+age+"email: "+email;
+
+    // return `name: ${name} , email: ${email} , age: ${age}`;
+
+    // return {
+    //     'name': name,
+    //     'age' : age,
+    //     'email': email,
+    // }
+}
+// console.log(myName.name, myName.address);
+// console.log(myName.getDOB());
+// const s1 = student('sv',24,'abc@abc.abc');
+// console.log(s1.name, s1.email, s1.age);
+
+console.log(student('sv',24,'abc@abc.abc'));
+
+//  ****interface first letter should be capital.
+
+
+
+
+
