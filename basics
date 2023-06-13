@@ -1,0 +1,60 @@
+//types 
+// 3 main primitives
+// 1.boolean
+// 2. number
+// 3. string
+
+// export{}
+// let TypeBool:boolean=true;
+// TypeBool=false;
+
+// let a=20;
+// a="abc"//error
+// a=33;
+
+// let Name:any="raj";
+
+// Name=20;
+// console.log(Name);
+
+// Type assignment
+// 1.Explicit...writing out the type
+// 2.Implicit...ts will guess the value
+
+//data type classification
+ 
+
+//  let b:null=null;
+//  b="nlrlkh";//error
+//  let c:undefined=undefined
+ //null and undefined
+//  let b=undefined;
+//  let c=undefined;
+ //undefined =not value and not objects
+ //null =object assign but value undefined
+//  let c="adfs";
+
+
+//Array 
+// let arr1:string[] = [1,2,4,'abc'];
+// let arr1:[string,number,boolean ]=['abc',1,true];
+// let arr3:Array<any>=[10,'abc'];
+//only one type is defined
+// console.log(arr3)
+
+//enum
+
+// enum size{'small'=9,'ho','large'}
+// console.log(size.ho);
+
+//any
+
+// let anyType:any='honey'
+// anyType=true;
+// console.log(anyType)
+
+//multitype
+// let multiType:(string|number|boolean)='tutorialswebsite';
+// multiType=20;
+// multiType=true;
+// multiType=false;
